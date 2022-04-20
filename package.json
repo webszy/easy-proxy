@@ -1,0 +1,32 @@
+{
+  "name": "easy-proxy",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "easy-proxy": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "easy-proxy --config test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "await-to-js": "^3.0.0",
+    "chalk": "^4.1.2",
+    "chokidar": "^3.5.3",
+    "fastify": "^3.28.0",
+    "fastify-cors": "^6.0.3",
+    "fastify-helmet": "^7.0.1",
+    "fs-extra": "^10.1.0",
+    "ip": "^1.1.5",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "yargs": "^17.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.25"
+  }
+}
